@@ -11,16 +11,15 @@ npm install react-native-fukushiro-modal-queue
 ## Usage
 
 ```js
-import { multiply } from 'react-native-fukushiro-modal-queue';
+import { userModalQueueStore } from "react-native-fukushiro-modal-queue";
 
-// ...
+const { queue, addToQueue, free, cleanQueue } = userModalQueueStore();
 
-const result = await multiply(3, 7);
+
+
 ```
 
-## Contributing
 
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
 
 ## License
 
