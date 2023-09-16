@@ -1,0 +1,2 @@
+tutorial seguido para criar pacote
+https://medium.com/simform-engineering/create-and-publish-react-native-package-d89c68b3ccc0

@@ -1,6 +1,6 @@
 {
   "name": "react-native-fukushiro-modal-queue",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "modal queue for react native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -33,7 +33,9 @@
     "prepack": "bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
-    "bootstrap": "yarn example && yarn install"
+    "bootstrap": "yarn example && yarn install",
+    "pack" : "pack",
+    "publish" : "publish"
   },
   "keywords": [
     "react-native",
